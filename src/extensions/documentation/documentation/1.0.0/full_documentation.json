@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-09-07T17:52:52.093Z"
+    "x-generation-date": "2025-01-25T13:13:44.678Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -526,6 +526,7 @@
                                                                                                       "action": {
                                                                                                         "type": "string"
                                                                                                       },
+                                                                                                      "actionParameters": {},
                                                                                                       "subject": {
                                                                                                         "type": "string"
                                                                                                       },
@@ -1463,6 +1464,7 @@
                                                                                         "action": {
                                                                                           "type": "string"
                                                                                         },
+                                                                                        "actionParameters": {},
                                                                                         "subject": {
                                                                                           "type": "string"
                                                                                         },
@@ -2491,7 +2493,8 @@
             "deprecated": false,
             "required": false,
             "schema": {
-              "type": "object"
+              "type": "object",
+              "additionalProperties": true
             },
             "style": "deepObject"
           },
@@ -2996,7 +2999,8 @@
             "deprecated": false,
             "required": false,
             "schema": {
-              "type": "object"
+              "type": "object",
+              "additionalProperties": true
             },
             "style": "deepObject"
           },
